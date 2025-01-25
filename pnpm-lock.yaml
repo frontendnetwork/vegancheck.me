@@ -106,8 +106,8 @@ importers:
         specifier: 15.0.3
         version: 15.0.3(eslint@9.13.0)(typescript@5.6.3)
       eslint-config-sznm:
-        specifier: ^2.0.3
-        version: 2.0.3(eslint@9.13.0)(prettier@3.3.3)(typescript@5.6.3)
+        specifier: ^2.0.4
+        version: 2.0.4(eslint@9.13.0)(prettier@3.3.3)(typescript@5.6.3)
       eslint-import-resolver-typescript:
         specifier: ^3.6.3
         version: 3.6.3(@typescript-eslint/parser@8.18.0(eslint@9.13.0)(typescript@5.6.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0)(eslint@9.13.0)
@@ -2224,8 +2224,9 @@ packages:
     peerDependencies:
       eslint: 9.13.0
 
-  eslint-config-sznm@2.0.3:
-    resolution: {integrity: sha512-8/EAEOTj6FDibLEazYCoLMqoWqIZJ1/nLYu396TsbR/Jztx0f0qDPH0dK2H37+d0z0yTiyYdTEbuN4WRMK/YBQ==}
+  eslint-config-sznm@2.0.4:
+    resolution: {integrity: sha512-zopXpKK1EnkaSY+7fU/Q6W/9LyVKNhvhw20zQFPq5DJZckN9/iY6/Rdihj45nZ2jElumSIY6jby/gIziU5AAtw==}
+    deprecated: This config library is deprecated. Please use other alternatives (see readme).
     peerDependencies:
       eslint: 9.13.0
       prettier: 3.x
@@ -6744,7 +6745,7 @@ snapshots:
     dependencies:
       eslint: 9.13.0
 
-  eslint-config-sznm@2.0.3(eslint@9.13.0)(prettier@3.3.3)(typescript@5.6.3):
+  eslint-config-sznm@2.0.4(eslint@9.13.0)(prettier@3.3.3)(typescript@5.6.3):
     dependencies:
       '@typescript-eslint/eslint-plugin': 8.14.0(@typescript-eslint/parser@8.18.0(eslint@9.13.0)(typescript@5.6.3))(eslint@9.13.0)(typescript@5.6.3)
       '@typescript-eslint/parser': 8.18.0(eslint@9.13.0)(typescript@5.6.3)
