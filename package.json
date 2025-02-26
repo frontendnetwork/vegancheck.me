@@ -25,7 +25,7 @@
   "dependencies": {
     "@ducanh2912/next-pwa": "^10.2.9",
     "@ericblade/quagga2": "^1.8.4",
-    "@frontendnetwork/veganify": "^2.0.5",
+    "@frontendnetwork/veganify": "^2.0.15",
     "@types/node": "22.10.1",
     "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
     "jest-worker": "^29.7.0",
